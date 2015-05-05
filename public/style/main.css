@@ -1,0 +1,59 @@
+/* MAIN.CSS */
+
+/* BRAND-COLOR: C5E384 */
+
+@font-face {
+  font-family: ETBembo;
+  src: url(font/ETBembo-RomanLF.ttf);
+}
+
+a:link, a:visited {
+  color: #d8c054;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f2f9e4;
+  color: #1f1f1f;
+  font-family: ETBembo, serif;
+  font-size: 100%;
+  line-height: 1.33em;
+  margin: 1em auto;
+  max-width: 40em;
+}
+
+footer {
+  font-size: 0.75em;
+  font-style: italic;
+  margin-top: 1.77em;
+}
+
+header {
+  margin-bottom: 1.33em;
+}
+
+h1 {
+  font-size: 2.37em;
+  line-height: 1em;
+}
+
+
+h2 {
+  font-size: 1.77em;
+  line-height: 1.16em;
+}
+
+
+h3 {
+  font-size: 1.33em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+
