@@ -7,13 +7,13 @@
   }, $wordlist);
 
   $wordlist = array_filter($wordlist, function($w) {
-    return strlen($w) <= 6;
+    return strlen($w) <= 4;
   });
 
   $wordlist = array_unique($wordlist);
 
   $wordmass = implode($wordlist, "\n") . "\n";
-  file_put_contents("../public/words.txt", $wordmass);
+  file_put_contents("../public/words4.txt", $wordmass);
 
   echo implode($wordlist, ' ') . "\n";
 
