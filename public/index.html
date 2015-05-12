@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>October Joy</title>
   <link href="style/main.css" rel="stylesheet" media="all">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="/script/namepool.js"></script>
 </head>
 <body>
   <header>
@@ -16,5 +18,10 @@
   <footer id="pagefooter">
     <p>A GNT creation &copy;2015</p>
   </footer>
+  <script>
+    $(document).ready(function() {
+      console.log(NAMEPOOL.draw());
+    });
+  </script>
 </body>
 </html> 
