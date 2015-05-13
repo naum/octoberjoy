@@ -9,22 +9,22 @@
     }, $wordlist);
 
     $wordlist = array_filter($wordlist, function($w) {
-        return strlen($w) <= 4;
+        return strlen($w) <= 6;
     });
 
     $wordlist = array_unique($wordlist);
     print_r($wordlist);
 
     $wordmass = implode($wordlist, "\n") . "\n";
-    file_put_contents("../public/words4.txt", $wordmass);
+    file_put_contents("../public/words6.txt", $wordmass);
 
     $wordtotal = count($wordlist);
     $jswordmass = '';
     $i = 0;
     foreach ($wordlist as $w) {
-        if ($i % 10 == 0) {
+        if ($i % 8 == 0) {
             $jswordmass .= '  "' . $w . '",'; 
-        } elseif ($i % 10 == 9) {
+        } elseif ($i % 8 == 7) {
             $jswordmass .= '"' . $w . '",' . "\n";
         } else {
             $jswordmass .= '"' . $w . '",';
