@@ -1,29 +1,18 @@
 var NAMEPOOL = function() {
 
-  var 
-    POOLSIZE = 1000,
-    draw, replenish,
-    namelist = [];
+  var WORDLISTLEN = DICTWORDS.length;
 
   draw = function() {
-    if (namelist.length == 0) {
-      replenish();
+    var i, x, y1, y2, y3;
+    x = Math.floor(Math.random() * 2);
+    y1 = Math.floor(Math.random() * WORDLISTLEN);
+    y2 = Math.floor(Math.random() * WORDLISTLEN);
+    y3 = Math.floor(Math.random() * WORDLISTLEN);
+    if (x == 0) {
+      return DICTWORDS[y1] + DICTWORDS[y2];
+    } else {
+      return DICTWORDS[y1] + DICTWORDS[y2] + DICTWORDS[y3];
     }
-    namelist.pop();
-  };
-
-  replenish = function() {
-    $.ajax('/words.txt', { 
-      async: false,
-      success: function(c) {
-        var i, w1, w2, wordlist = c.split("\n");
-        for (i = 0; i < POOLSIZE; i += 1) {
-          w1 = wordlist[Math.floor(Math.random() * wordlist.length)];
-          w2 = wordlist[Math.floor(Math.random() * wordlist.length)];
-          namelist.push(w1 + w2);
-        }
-      }
-    });
   };
     
   return {
