@@ -50,7 +50,7 @@
     }
 
     function is_open_syllable($wm) {
-        return preg_match("/^C{1,2}V{1,2}$/", $wm) or
+        return preg_match("/^(C{1,2})?V{1,2}$/", $wm) or
                preg_match("/^V{1,2}C{1,2}$/", $wm);
     }
 

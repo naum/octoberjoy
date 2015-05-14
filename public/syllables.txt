@@ -1,3 +1,5 @@
+a
+aa
 aal
 aam
 ab
@@ -7,11 +9,13 @@ act
 ad
 add
 adz
+ae
 aer
 aes
 aft
 ah
 aht
+ai
 aid
 ail
 aim
@@ -35,6 +39,7 @@ an
 and
 ann
 ant
+ao
 apt
 ar
 arc
@@ -62,6 +67,7 @@ awd
 awl
 awn
 ax
+ay
 ba
 baa
 baal
@@ -1722,6 +1728,8 @@ dyer
 dying
 dyke
 dyne
+e
+ea
 each
 ean
 ear
@@ -1760,7 +1768,9 @@ err
 ers
 es
 ess
+eu
 ex
+ey
 eyn
 fa
 fable
@@ -2986,10 +2996,12 @@ hymn
 hynde
 hyne
 hyp
+i
 iamb
 ian
 ich
 id
+ie
 if
 ilk
 ill
@@ -2999,6 +3011,7 @@ ind
 ing
 ink
 inn
+io
 ion
 irk
 is
@@ -4219,6 +4232,7 @@ nupe
 nurse
 nut
 nye
+o
 oaf
 oak
 oam
@@ -4232,6 +4246,7 @@ od
 odd
 ods
 odz
+oe
 oer
 oes
 of
@@ -7145,6 +7160,7 @@ tyrr
 tyste
 tyt
 tzaam
+u
 uang
 ud
 uds
@@ -7687,6 +7703,8 @@ xi
 xipe
 xmas
 xyst
+y
+ya
 yad
 yaff
 yah
@@ -7714,6 +7732,7 @@ yawl
 yawn
 yawp
 yaws
+ye
 yed
 yegg
 yeld
@@ -7750,6 +7769,7 @@ yirr
 yis
 ym
 yn
+yo
 yock
 yodh
 yogh
