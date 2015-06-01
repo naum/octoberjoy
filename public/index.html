@@ -6,8 +6,9 @@
   <title>October Joy</title>
   <link href="style/main.css" rel="stylesheet" media="all">
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="/script/syllables.js"></script>
-  <script src="/script/namepool.js"></script>
+  <script src="script/syllables.js"></script>
+  <script src="script/namepool.js"></script>
+  <script src="script/uba.js"></script>
 </head>
 <body>
   <header>
@@ -21,12 +22,8 @@
   </footer>
   <script>
     $(document).ready(function() {
-      var i, namereport, nl = [];
-      for (i = 0; i < 13; i += 1) {
-        nl.push(NAMEPOOL.draw());
-      }
-      namereport = nl.join('<br>');
-      $('#gamering').html(namereport);
+      UBA.genesis();
+      $('#gamering').html(UBA.report());
     });
   </script>
 </body>

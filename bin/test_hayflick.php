@@ -1,6 +1,6 @@
 <?php
 
-require("../public/hayflick.php");
+require("../public/module/hayflick.php");
 
 $b = [ 'name' => 'Shepherd' ];
 $t = "Hello, {{name}}.";

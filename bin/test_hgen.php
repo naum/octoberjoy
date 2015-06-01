@@ -1,6 +1,6 @@
 <?php
 
-require("../public/hgen.php");
+require("../public/module/hgen.php");
 
 echo hgen\tag("div", "welcome") . "\n";
 echo hgen\tag("p", "stuff goes in here.", [ 'class' => 'big', 'id' => 'lede' ]) . "\n";
